@@ -1,0 +1,108 @@
+body {
+  font-family: 'Kalam', cursive;
+}
+
+.container {
+  height: 25em;
+  max-height: 26em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: -0.3em;
+}
+
+.my-form {
+  margin: 2em auto;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.user-data {
+  width: 350px;
+  height: 30px;
+  border-style: solid;
+  text-align: center;
+}
+
+.current-item {
+  font-size: 1.3em;
+}
+
+.list-section {
+  width: 21.5em;
+  margin: 0 auto;
+}
+
+.check-box {
+  height: 20px;
+  width: 20px;
+}
+
+.check-box:hover {
+  -webkit-filter: drop-shadow(2px 2px 2px blue);
+}
+
+.add-button {
+  height: 2.75em;
+  width: 7em;
+  margin: 0.4em auto;
+  border: none;
+  border-radius: 15px;
+  background-color: #0099cc;
+  color: white;
+  box-shadow: 0 9px #999;
+  outline: none;
+}
+
+.add-button:hover {
+  background-color: #0066dd;
+}
+
+.add-button:active {
+  background-color: #0066dd;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.x-mark {
+  float: right;
+}
+
+.x-mark:hover {
+  -webkit-filter: drop-shadow(2px 2px 2px red);
+}
+
+.x-mark, .check-box, .add-button {
+  cursor: pointer;
+}
+
+img {
+  height:20px;
+  width:20px;
+}
+
+.credits {
+  text-align: center;
+  margin-bottom: 1em;
+  position: relative;
+  bottom: .5em;
+}
+
+.credits h3 {
+  letter-spacing: 0.20em;
+  font-family: 'Oswald', sans-serif;
+  font-size: .75em;
+  margin-top: -3.25em;
+  margin-left: 10em;
+}
+.logo {
+  width: 30em;
+  height: 8em;
+  margin-top: -2em;
+}
