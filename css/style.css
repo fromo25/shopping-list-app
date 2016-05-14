@@ -21,6 +21,9 @@ h2 {
 ul {
   list-style: none;
   padding: 0;
+  max-height: 16.50em;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 
 .user-data {
@@ -90,19 +93,17 @@ img {
 .credits {
   text-align: center;
   margin-bottom: 1em;
-  position: relative;
-  bottom: .5em;
 }
 
 .credits h3 {
   letter-spacing: 0.20em;
   font-family: 'Oswald', sans-serif;
   font-size: .75em;
-  margin-top: -3.25em;
+  margin-top: -2.25em;
   margin-left: 10em;
 }
 .logo {
   width: 30em;
   height: 8em;
-  margin-top: -2em;
+  margin-top: 1em;
 }
